@@ -13,6 +13,7 @@ import java.util.List;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Entity
 public class Order {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
